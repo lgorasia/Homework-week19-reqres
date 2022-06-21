@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.reqres.cucumber.TestRunner" time="0.141" tests="37" errors="0" skipped="25" failures="12">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ThinkPad\IdeaProjects\reqres-19"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ThinkPad\IdeaProjects\reqres-19"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ThinkPad\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk8u202-b08-jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Users\ThinkPad\AppData\Local\Microsoft\WindowsApps;C:\Users\ThinkPad\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ThinkPad"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ThinkPad"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I am on homepage of the given url" classname="Scenario: I want to create a user to the application" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:5)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": null,
+    "job": null,
+    "email": "raj.patel@gmail.in",
+    "password": "ABC123"
+}
+]]></system-out>
+    <system-err><![CDATA[1219 [main] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+1219 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: As a user I would like to check the CRUD functionality of reqres.in
+1344 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: I want to create a user to the application
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: I want to create a user to the application" classname="Scenario: I want to create a user to the application" time="0.031">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:5)
+]]></failure>
+  </testcase>
+  <testcase name="When I send POST request to the the application using a valid payload to create a User" classname="Scenario: I want to create a user to the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get status code 201" classname="Scenario: I want to create a user to the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I fetch the ID of newly created user" classname="Scenario: I want to create a user to the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on homepage of the given url" classname="Scenario: I want to read the newly created user from the application" time="0.031">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:11)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": null,
+    "job": null,
+    "email": "raj.patel@gmail.in",
+    "password": "ABC123"
+}
+]]></system-out>
+    <system-err><![CDATA[7172 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: I want to create a user to the application
+--------------------------------------------------------------------------
+7312 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Login User with email : raj.patel@gmail.in, password: ABC123
+7312 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <400>.
+7562 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to create a user to the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.jsonef95cac7-1500-4abd-8601-d21b95e39bd0)
+7875 [pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to create a user to the application in 3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.html in directory target\site\serenity  
+8890 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: I want to read the newly created user from the application
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: I want to read the newly created user from the application" classname="Scenario: I want to read the newly created user from the application" time="0.031">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:11)
+]]></failure>
+  </testcase>
+  <testcase name="When I send GET request to the application to read newly created user" classname="Scenario: I want to read the newly created user from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get status code 200" classname="Scenario: I want to read the newly created user from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify in the response if it has newly created user name" classname="Scenario: I want to read the newly created user from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on homepage of the given url" classname="Scenario: I want to update the newly created user using PUT from the application" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:17)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": null,
+    "job": null,
+    "email": "raj.patel@gmail.in",
+    "password": "ABC123"
+}
+]]></system-out>
+    <system-err><![CDATA[9203 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: I want to read the newly created user from the application
+--------------------------------------------------------------------------
+9203 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Login User with email : raj.patel@gmail.in, password: ABC123
+9203 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <400>.
+9218 [pool-3-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to create a user to the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json2e6968e9-6a2a-4394-ad55-2859185ac77e)
+9234 [pool-3-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to read the newly created user from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json157f46b1-3c0a-452d-b1fa-6318ebbbd07b)
+9281 [pool-4-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to create a user to the application in 3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.html in directory target\site\serenity  
+9281 [pool-4-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to read the newly created user from the application in fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.html in directory target\site\serenity  
+9312 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: I want to update the newly created user using PUT from the application
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: I want to update the newly created user using PUT from the application" classname="Scenario: I want to update the newly created user using PUT from the application" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:17)
+]]></failure>
+  </testcase>
+  <testcase name="When I send PUT request to the application to update newly created user" classname="Scenario: I want to update the newly created user using PUT from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get status code 200" classname="Scenario: I want to update the newly created user using PUT from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify in the response if it has newly created user is updated" classname="Scenario: I want to update the newly created user using PUT from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on homepage of the given url" classname="Scenario: I want to update the newly created user using PATCH from the application" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:23)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": null,
+    "job": null,
+    "email": "raj.patel@gmail.in",
+    "password": "ABC123"
+}
+]]></system-out>
+    <system-err><![CDATA[9547 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: I want to update the newly created user using PUT from the application
+--------------------------------------------------------------------------
+9547 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Login User with email : raj.patel@gmail.in, password: ABC123
+9547 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <400>.
+9562 [pool-5-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to read the newly created user from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json6054cb42-2792-4ccf-9acb-03b6cf7f3824)
+9593 [pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to update the newly created user using PUT from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.jsond574dcf6-0196-437f-a33d-a95f372f86f5)
+9593 [pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to create a user to the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.jsond7fdd6f8-9313-4c79-a927-4e5bfd3c5aed)
+9609 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to create a user to the application in 3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.html in directory target\site\serenity  
+9640 [pool-6-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to read the newly created user from the application in fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.html in directory target\site\serenity  
+9640 [pool-6-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to update the newly created user using PUT from the application in 8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.html in directory target\site\serenity  
+9672 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: I want to update the newly created user using PATCH from the application
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: I want to update the newly created user using PATCH from the application" classname="Scenario: I want to update the newly created user using PATCH from the application" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:23)
+]]></failure>
+  </testcase>
+  <testcase name="When I send PATCH request to the application to update newly created user" classname="Scenario: I want to update the newly created user using PATCH from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get status code 200" classname="Scenario: I want to update the newly created user using PATCH from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify in the response if it has newly created user is updated" classname="Scenario: I want to update the newly created user using PATCH from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on homepage of the given url" classname="Scenario: I want to delete the newly created user from the application" time="0.016">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:29)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": null,
+    "job": null,
+    "email": "raj.patel@gmail.in",
+    "password": "ABC123"
+}
+]]></system-out>
+    <system-err><![CDATA[9859 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: I want to update the newly created user using PATCH from the application
+--------------------------------------------------------------------------
+9859 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Login User with email : raj.patel@gmail.in, password: ABC123
+9859 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <400>.
+9859 [pool-7-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to create a user to the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json049391ad-cd83-4fe4-bdd3-937415a82e23)
+9859 [pool-7-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to update the newly created user using PUT from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.jsonb4b57335-855b-40e2-b198-bb3485b774cc)
+9859 [pool-7-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to update the newly created user using PATCH from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\92c989269b790cf7e1d41ba0d7449180899117aa78f9d9e6e6daadfb1f9dd517.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\92c989269b790cf7e1d41ba0d7449180899117aa78f9d9e6e6daadfb1f9dd517.jsoncb2cedcf-792e-49fb-b60b-6a7fa9eb5447)
+9859 [pool-7-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to read the newly created user from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json7cfdb50c-5c08-4d47-8543-d7c40ab858c6)
+9890 [pool-8-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to create a user to the application in 3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.html in directory target\site\serenity  
+9906 [pool-8-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to read the newly created user from the application in fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.html in directory target\site\serenity  
+9906 [pool-8-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to update the newly created user using PUT from the application in 8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.html in directory target\site\serenity  
+9922 [pool-8-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to update the newly created user using PATCH from the application in 92c989269b790cf7e1d41ba0d7449180899117aa78f9d9e6e6daadfb1f9dd517.html in directory target\site\serenity  
+9968 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: I want to delete the newly created user from the application
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: I want to delete the newly created user from the application" classname="Scenario: I want to delete the newly created user from the application" time="0.016">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:29)
+]]></failure>
+  </testcase>
+  <testcase name="When I send DELETE request to the application to delete newly created user" classname="Scenario: I want to delete the newly created user from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get status code 204" classname="Scenario: I want to delete the newly created user from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if newly created user is deleted" classname="Scenario: I want to delete the newly created user from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on homepage of the given url" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:35)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": null,
+    "job": null,
+    "email": "raj.patel@gmail.in",
+    "password": "ABC123"
+}
+]]></system-out>
+    <system-err><![CDATA[10109 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: I want to delete the newly created user from the application
+--------------------------------------------------------------------------
+10109 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Login User with email : raj.patel@gmail.in, password: ABC123
+10109 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <400>.
+10125 [pool-9-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to create a user to the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.json8063e9d3-a21e-4d53-9f83-4f46e1bb416b)
+10125 [pool-9-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to read the newly created user from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.json0242bd31-ce6a-48aa-8a45-cfd71d755437)
+10125 [pool-9-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to update the newly created user using PUT from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.jsonc2077198-aebe-4f3d-9c0a-f3c894bf94a4)
+10140 [pool-9-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to update the newly created user using PATCH from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\92c989269b790cf7e1d41ba0d7449180899117aa78f9d9e6e6daadfb1f9dd517.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\92c989269b790cf7e1d41ba0d7449180899117aa78f9d9e6e6daadfb1f9dd517.json8b539487-3275-4cac-bba2-5d5528e41aec)
+10140 [pool-9-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for I want to delete the newly created user from the application to file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\985f91727d42eff98f3c7caa9be7460474d7aa18de62a31926942c5218b92efa.json (using temp file C:\Users\ThinkPad\IdeaProjects\reqres-19\target\site\serenity\985f91727d42eff98f3c7caa9be7460474d7aa18de62a31926942c5218b92efa.json3d5eae80-4432-4737-aab3-9971797fec2b)
+10156 [pool-10-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to update the newly created user using PUT from the application in 8b5f65459a610b609c4df1cbb70a4508dfb76dbb5e560d867692c117f3be3d6d.html in directory target\site\serenity  
+10156 [pool-10-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to create a user to the application in 3c4c315e4cf9a28c235afb1c5a08b44a3c50ba26ef644e7c59cb96dc566a61e9.html in directory target\site\serenity  
+10156 [pool-10-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to read the newly created user from the application in fce091df62bcfde69bb3b66effaa47d27be0e5dc01c49156ce67bc0d7816addc.html in directory target\site\serenity  
+10187 [pool-10-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to delete the newly created user from the application in 985f91727d42eff98f3c7caa9be7460474d7aa18de62a31926942c5218b92efa.html in directory target\site\serenity  
+10203 [pool-10-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR As a user I would like to check the CRUD functionality of reqres.in:I want to update the newly created user using PATCH from the application in 92c989269b790cf7e1d41ba0d7449180899117aa78f9d9e6e6daadfb1f9dd517.html in directory target\site\serenity  
+10203 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: I want to read all users from the application and verify some items from response
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: I want to read all users from the application and verify some items from response" classname="Scenario: I want to read all users from the application and verify some items from response" time="0.016">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.CGLIB$loginUser$1(<generated>)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82$$FastClassByCGLIB$$1f821df3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at in.reqres.reqresinfo.UsersSteps$$EnhancerByCGLIB$$95862e82.loginUser(<generated>)
+	at in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)
+	at ✽.Given I am on homepage of the given url(UsersCRUDtest.feature:35)
+]]></failure>
+  </testcase>
+  <testcase name="When I send GET request to the the application to read all users" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get status code 200" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if page is 2" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if per_page is 6" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if second data&apos;s id is 8" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if forth data&apos;s first_name is Byron" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if list of data is 6" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if sixth data&apos;s avatar is &quot;https://reqres.in/img/faces/12-image.jpg&quot;" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if support.url is &quot;https://reqres.in/#support-heading&quot;" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if support.text is &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;" classname="Scenario: I want to read all users from the application and verify some items from response" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

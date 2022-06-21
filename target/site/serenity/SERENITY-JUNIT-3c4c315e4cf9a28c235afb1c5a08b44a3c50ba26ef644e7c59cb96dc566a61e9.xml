@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="6" name="As a user I would like to check the CRUD functionality of reqres.in" skipped="0" tests="6" time="6.99" timestamp="2022-06-21T20:09:41.315+01:00[Europe/London]"><testcase name="I want to create a user to the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)&#13;
+in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)&#13;
+✽.Given I am on homepage of the given url(UsersCRUDtest.feature:5)&#13;
+</system-err></testcase><testcase name="I want to read the newly created user from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)&#13;
+in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)&#13;
+✽.Given I am on homepage of the given url(UsersCRUDtest.feature:11)&#13;
+</system-err></testcase><testcase name="I want to update the newly created user using PUT from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)&#13;
+in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)&#13;
+✽.Given I am on homepage of the given url(UsersCRUDtest.feature:17)&#13;
+</system-err></testcase><testcase name="I want to update the newly created user using PATCH from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)&#13;
+in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)&#13;
+✽.Given I am on homepage of the given url(UsersCRUDtest.feature:23)&#13;
+</system-err></testcase><testcase name="I want to delete the newly created user from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)&#13;
+in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)&#13;
+✽.Given I am on homepage of the given url(UsersCRUDtest.feature:29)&#13;
+</system-err></testcase><testcase name="I want to read all users from the application and verify some items from response"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:61)&#13;
+in.reqres.cucumber.steps.MyStepdefs.iAmOnHomepageOfTheGivenUrl(MyStepdefs.java:32)&#13;
+✽.Given I am on homepage of the given url(UsersCRUDtest.feature:35)&#13;
+</system-err></testcase></testsuite>

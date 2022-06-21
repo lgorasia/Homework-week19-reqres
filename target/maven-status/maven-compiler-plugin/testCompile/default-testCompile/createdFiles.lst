@@ -1,0 +1,4 @@
+in\reqres\cucumber\steps\MyStepdefs.class
+in\reqres\testbase\TestBase.class
+in\reqres\cucumber\TestRunner.class
+in\reqres\reqresinfo\UsersCRUDTest.class
